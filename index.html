@@ -1,0 +1,240 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Fading Modal</h2>
+  <p>Add the "fade" class to the modal container if you want the modal to fade in on open and fade out on close.</p>
+
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Open modal
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <a href="" class="modal-colose">
+          <span class="modal-colose">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </span>
+        </a>
+
+        <div class="content-left">
+          <div class="content-left-center">
+            <h2>
+              Đăng nhập
+            </h2>
+            <p>
+              Đăng nhập để theo giỏi đơn hàng, lưu 
+              <br>
+              danh sách sản phẩm yêu thích, nhận 
+              <br>
+              nhiều ưu ái hấp dẫn.
+            </p>
+            <img src="./img/photo-1.png" alt="" class="modalImg">
+          </div>
+        </div>
+        
+        <div class="content-right">
+            <div class="content-right-center">
+              <!-- Modal Header -->
+          <div class="modal-header">
+            <div class="modal-header-content">
+              <div class="modal-header-center">
+                <button type="button" class="modal-login" data-toggle="modal-body" data-target="#myModalBody">
+                  Đăng nhập
+                </button>
+                <button type="button" class="modal-login" data-toggle="modal-2" data-target="#myModal-2">
+                  Tạo tài khoản
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body" id="myModalBody">
+            <div class="modal-body-content">
+              <div class="modal-body-center">
+                <div class="modal-dang-nhap">
+                    <label for="">Email/ SĐT</label>
+                    <input type="text" class="modal-dang-nhap" placeholder="Nhập Email hoặc Số điện thoại">
+                </div>
+                <div class="modal-dang-nhap">
+                  <label for="">Mật khẩu</label>
+                    <input type="text" class="modal-dang-nhap" placeholder="Mật khẩu từ 6 đến 32 ký tự">
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <div class="modal-footer-content">
+                  <div class="modal-footer-center">
+                    <p class="modal-footer">
+                      Quên mật khẩu nhấn vào <a href="" class="modal-footer">đây</a>
+                    </p>
+                    
+                    <button class="bt-modal-footer">
+                      Đăng nhập
+                    </button>
+                    <button class="bt-modal-footer-2">
+                      <span class="icon-modal-footer">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </span>
+                      Đăng nhập bằng Facebook
+                    </button>
+                    <button class="bt-modal-footer-3">
+                      <span class="icon-modal-footer">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                      </span>
+                      Đăng nhập bằng GOogle
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>     
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal-2" id="myModal-2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <a href="" class="modal-colose">
+          <span class="modal-colose">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </span>
+        </a>
+
+        <div class="content-left">
+          <div class="content-left-center">
+            <h2>
+              Tạo tài khoản
+            </h2>
+            <p>
+              Tạo tài khoản để theo giỏi đơn hàng, lưu
+              <br>
+              danh sách sản phẩm yêu thích, nhận 
+              <br>
+              nhiều ưu ái hấp dẫn.
+            </p>
+            <img src="./img/photo-1.png" alt="" class="modalImg">
+          </div>
+        </div>
+        
+        <div class="content-right">
+            <div class="content-right-center">
+              <!-- Modal Header -->
+          <div class="modal-header">
+            <div class="modal-header-content">
+              <div class="modal-header-center">
+                <button type="button" class="modal-login" data-toggle="modal" data-target="#myModal">
+                  Đăng nhập
+                </button>
+                <button type="button" class="modal-login" data-toggle="modal-2" data-target="#myModal-2">
+                  Tạo tài khoản
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body" id="myModalBody">
+            <div class="modal-body-content">
+              <div class="modal-body-center">
+                <div class="modal-dang-nhap">
+                    <label for="">Họ tên</label>
+                    <input type="text" class="modal-dang-nhap" placeholder="Nhập họ tên">
+                </div>
+                <div class="modal-dang-nhap">
+                  <label for="">SĐT</label>
+                    <input type="text" class="modal-dang-nhap modal-tao-tai-khoan" placeholder="Nhập số điện thoại">
+                    <div class="modal-xac-thuc">
+                        Gữi mã xác thực
+                    </div>
+                </div>
+                <div class="modal-dang-nhap">
+                    <label for="">Mã xác thực</label>
+                    <input type="text" class="modal-dang-nhap" placeholder="Nhập mã xác thực gữi tới số điện thoại trên">
+                </div>
+                <div class="modal-dang-nhap">
+                    <label for="">Email</label>
+                    <input type="text" class="modal-dang-nhap" placeholder="Nhập email">
+                </div>
+                <div class="modal-dang-nhap">
+                    <label for="">Mật khẩu</label>
+                    <input type="text" class="modal-dang-nhap" placeholder="Mật khẩu từ 6 đến 32 ký tự">
+                </div>
+                <div class="modal-dang-nhap">
+                    <label for="">Giới tính</label>
+                    <span class="modal-gender">
+                        <label for="check-modal-gender-man" class="modal-gender-man">
+                            <input type="checkbox" class="check-modal-gender-man">
+                            <p class="text-gender-man">
+                                Nam
+                            </p>
+                        </label>
+                        <label for="check-modal-gender-man" class="modal-gender-man">
+                            <input type="checkbox" class="check-modal-gender-man">
+                            <p class="text-gender-man">
+                                Nữ
+                            </p>
+                        </label>
+                    </span>
+                </div>  
+                <div class="modal-dang-nhap">
+                    <label for="">Ngày sinh</label>
+                </div>
+              </div>
+
+              <div class="modal-check-mail">
+                <div class="modal-footer-content modal-check-mail-content">
+                  <div class="modal-footer-center modal-check-mail-center">
+                    <input type="checkbox" class="check-mail">
+                    <p class="modal-footer check-mail">
+                        Nhận các thông tin và chương trình khuyến mãi của Tiki qua Email.
+                    </p>
+                  </div>
+
+                  <div class="modal-tao-tai-khoan">
+                    <button class="bt-modal-footer">
+                        Tạo tài khoản
+                    </button>
+
+                    <p class="modal-tao-tai-khoan">
+                        Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện mọi giao dịch mua bán theo
+                        <a href="" class="modal-tao-tai-khoan">
+                            điều kiện sử dụng và chính sách của Tiki
+                        </a>
+                        .
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
